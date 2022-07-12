@@ -1,0 +1,59 @@
+PARA INSTALAR O TS É PRECISO PARAR O TERMINAL E DPS npm instal TypeScript @ a versão que você quer --save-dev
+
+
+O atributo type="module" indica para o navegador que o arquivo a carregado deve ser tratado com um módulo e não um script;
+
+Para atributos privados só se usa o "#" antes do nome do atributo;
+
+Ver em negociacao.js para ver como construir o constructor
+
+getters para apenas leitura
+
+Com o TS podemos testar o codigo em tempo e desenvolvimento e não em run time
+
+O TS depende do uso do nodejs
+
+O código TypeScript precisa ser traduzido/convertido para um código em ECMASCRIPT para que seja entendido pelo navegador. Lembre-se que apenas ECMASCRIPT é suportado pelo navegador.
+
+A pasta dist é tudo oq o navegador entende
+
+Um getter não pode ter o mesmo nome que a classe
+
+                                ***** COMPILADOR DO TS E PACKAGE*****
+Antes de tudo temos que criar o arquivo tsconfig.json para configurar o compilador
+
+"OutDir" para dizer para onde os arquivos criados vão
+
+"include" para dizer onde está os arquivos que o usuário quer modificar para TS
+
+"noEmitOnError": true serve para que o compilador não crie uma nova pasta JS enquanto houver erros no TS
+
+npm run start para rodar o codigo
+
+npm run compile para criar os arquivos em JS
+
+npm run server para rodar o código no navegador
+
+"compile" parafazer com que o código em JS atualize qnd atualizar o TS 
+
+"watch": "tsc -w" para sempre estar atualizando o código, informando se há erros ou mudanças no codigo
+
+npm run start para executar o watch combinado com o server 
+
+                                                ***********
+
+O TypeScript tem seu próprio jeito de atribuir atributos privados que é o private
+
+O tipo any vem como padrão
+
+Para definir que quando atributos não sejam any temos que ir em tsconfig e colocar o "noImplicityAny" como true
+e depois atriubuir aos atributos os valores usando :*tipo selecionado*
+
+Para pegar um valor de um input do HTML é necessário adicionar o .value
+
+Todos os input's com .value será string
+
+É uma boa prática sempre tipar os código e sempre evitar o tipo any e sempre declarar o tipo
+
+É uma boa prática sempre tipar os códigos por exemplo em return's colocar como o valor que deseja retornar 
+
