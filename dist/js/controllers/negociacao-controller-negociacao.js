@@ -1,5 +1,6 @@
 import { Negociacao } from "../models/negociaocao.js";
 export class NegociacaoController {
+    //A atribuição foi feita por meio do construtor
     constructor() {
         this.inputData = document.querySelector("#data");
         this.inputQuantidade = document.querySelector("#quantidade");

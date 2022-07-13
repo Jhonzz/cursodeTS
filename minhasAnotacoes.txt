@@ -53,7 +53,12 @@ Para pegar um valor de um input do HTML é necessário adicionar o .value
 
 Todos os input's com .value será string
 
-É uma boa prática sempre tipar os código e sempre evitar o tipo any e sempre declarar o tipo
+É uma boa prática sempre tipar os códigos em parâmetros, atributos etc. E sempre evitar o tipo any e sempre declarar o tipo
 
 É uma boa prática sempre tipar os códigos por exemplo em return's colocar como o valor que deseja retornar 
 
+Exemplo de como funciona o focus em controller 
+
+                                        *******PARTE 2 DO CURSO*******
+
+                                        
