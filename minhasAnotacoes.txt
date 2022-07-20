@@ -59,6 +59,7 @@ Todos os input's com .value será string
 
 Exemplo de como funciona o focus em controller 
 
-                                        *******PARTE 2 DO CURSO*******
+O tipo readonlyArray é usado quando não queremos que os itens de um array seja modificado
 
+                                        *******PARTE 2 DO CURSO*******
                                         
