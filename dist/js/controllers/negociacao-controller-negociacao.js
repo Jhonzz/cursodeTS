@@ -1,5 +1,6 @@
 import { Negociacoes } from "../models/negociacoes.js";
 import { Negociacao } from "../models/negociaocao.js";
+//oq vai aparecer no console
 export class NegociacaoController {
     //A atribuição foi feita por meio do construtor
     constructor() {
@@ -10,8 +11,8 @@ export class NegociacaoController {
     }
     adiciona() {
         const negociacao = this.criaNegociacao();
+        negociacao.data.setDate(12);
         this.negociacoes.adiciona(negociacao);
-        this.negociacoes.lista().pop();
         console.log(this.negociacoes.lista());
         this.limparFormulario();
     }
