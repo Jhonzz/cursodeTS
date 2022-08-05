@@ -64,5 +64,6 @@ O tipo readonlyArray é usado quando não queremos que os itens de um array seja
 readonly só serve para quando usamos a atribuição, não deixando fazê-la
 
 getTime() serve para que quando a data for criada ele registre uma data a partir da data criada
+
                                         *******PARTE 2 DO CURSO*******
                                         

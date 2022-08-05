@@ -1,5 +1,5 @@
 import { NegociacaoController } from "./controllers/negociacao-controller-negociacao.js";
-import { Negociacao } from "./models/negociaocao.js";
+import { NegociacoesView } from "./views/negociacoes-view.js";
 
 const controller = new NegociacaoController();
 const form = document.querySelector(".form");
